@@ -5,7 +5,7 @@
     pre {
       margin: 0;
       display: inline-block;
-      font-size: 6px;
+      font-size: 8px;
       text-align: center;
       font-family: Ubuntu Mono, monospace !important;
       text-rendering: optimizeSpeed;
@@ -16,28 +16,6 @@
   </style>
   <script>
     const lines = [
-      "Xk66bKKbbdbbDDDRRRR%RDDDDDDRDDDDRRRRRR%%%%%g%%ggggWN8N8NNNN###BB&amp;#&amp;BBQQQQQQQQQQQQQQQQQQQQQQ@Q@@@@@Q@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-      "Ek6UqKqdbbbdddDDD%W%DDDDDDDDDDRRRDDRDRR%%%%R%ggggg8NNN8WN#N#&amp;##N##&amp;BBQQQQQQQQB#BQQQQQQQQQQQQQQ@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-      "kwX66qKbdKKbbddDD%QXPKbdddDDRRRRDR%RRR%%%%%%%ggR%gWWWWNNN#####B#&amp;#BBBBQQQQQQQ%DDRR%RRRRR%%%ggWWN#QQ@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-      "wwXU6qq6bKKbbKbdDDKakKdbddDDDDRRRR%RRR%%%%g%gg%ggWWW88N#NN###N&amp;B&amp;&amp;&amp;BBBBQQQQQBRDRRR%%R%RRDDDRDDDDDDQQQQQQ@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-      "PXX66q66KqqKKKKbbbdbKbDDbDDDDRDDD%%RRR%%ggggggggg888WNN#&amp;&amp;#N&amp;BQ#&amp;BBBBBQQQQQQBRR%%%g%%%%%%RDRDDDDDbbKKqK#@@QgR%gBBQQQQQ@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-      "mmkU6UUUqqKbqKbbKbdbbddbbDDDDDR%%RR%%%%ggggggggW8NNN#NNN&amp;BBBBBBBBQQQBQQQQQQQNR%ggWggg%%%%R%RRDDDDdDbKKbQ@@QDKbDW%%RdKKKDR%WQ@@QQQQ@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-      "SSPXUXUX6qqq6KKqKbbKdddKDDRDRRRR%%RRRR%gggg%WWWWW##NNNN##B&amp;&amp;BBBBQQQQBQQQQQQQgggggWggggg%%%%%RRRRDDRDDDgQ@@QgRDR%K66qqKKbdDD%QQ%R%gWQQQQ@@@QBBQQQ@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-      "wmShUUU6Kq6qKKqKKKbbbdbdDRD%RDRRRR%%R%ggggWWWWgW8NN&amp;#&amp;N#BBBBQQQQQQQQQQBQQQQQWgWWN8N88WggWWW88NNN88W%%QQ@@@QWq6KRq6qqKbddDDDWQQN%%%gW8N##BQQB&amp;#QQ@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-      "wShkXXU6qqqqKKbbbbdKbDddDDRDRRRRR%%%%ggggggggNWWNN#&amp;&amp;QBBBBBBBBBQQQQQQQQQQQQQ&amp;N#N#&amp;##&amp;N#N#NWWgg%%RDDD%Q@@Q@@Qbqd%KKKbddDdD%Q@@@@NgWWNN##BBQB#BQQQNNBQQQQQQ@@@@@@@@@@@@@@@@@@@",
-      "mmPkXXUX66UKKKbbKbbbdDDDDDRDDDRg%%R%%gggWgW8WgWWNNB&amp;BBBBBBBQQQBQQQQQQQQQQQQQQNN8#NW8NWWWWWggggg%%R%R%W#QQQQWq6qKqqqKbdDRgQQQ@@@Q8WN#BQQQQQQBBQQQNWNNNNNNN&amp;BQQQQQ@@@@@@@@@@@@",
-      "SSwhkUUU66qK6KKbbKqbdDDDDDRRRR%%%%%%gg%WWgWgWWN##N#BBBQQBBQQQQBQQQQQQQQQQQQQQQBNNNNNNWWWWNW8WgggRDbqXXXXXXUXXoZUUUUUUUUUdQQQQQQQ####BQQQQQQ&amp;QQQQ8WW8W88N8NN#B&amp;B&amp;BQQQQQQQQ@@@",
-      "55EXkkXX66Uq6KKKbbKdbdDDRDRRR%%R%%gWggggWW8W88NNW#BB&amp;B&amp;&amp;BQQQQQBBQQQQQQQQQQQQQB&amp;Q&amp;NNNNNN8NN##WRdqUUUUUUUXkXXXUSZU6666UUUUUDQQQQQQ#&amp;BBQQQQQQ#BQQQQBBBB#NNN88NN&amp;##BBBQQQQQQQQQQ",
-      "oSPEhXUX6qqqqKbbdDKbddDDDDR%R%%%%Rg%%ggg8W8WW88NNN&amp;B&amp;BBBQQQQQBBQQQQQQQQQQQQQQN#QNNNNNNNNN#NgDqqUUUUU6UUUXUUUUXUU6q66UUUUUUUbdbKDNQQQQQQQQQNQQQQQQQQQQQQQQQQQQQBQBQQQQQQQQQQQ",
-      "omkEPkXXUU66qqKbKKddDDDDDRRR%%%%%%gggggWWNNNWNN###&amp;QQBBBBQQQQBQQQQQQQQQQQQQQQQQQ&amp;######N#BWdKq6UUXXkUUXXkXXXXXXUXUUUUXUUUXXUU6qKDQQQQQQQQQBQQQQQQQQ@@@@Q@@@@@@@@@@QQQQQQQQQQ",
-      "mmSSEkhkUXUq6qKqqKKbDDDDDRRR%%%%%%%gggggW8N88N##N&amp;BBBQQQQQQQQQQQQQQQQQQQQQQQQQQBBBBQB##&amp;##WDKXUUXXkXkhEwwEEEwEwPEkkkkkkhhkhXXU6K%QQQQQQQQQQQQQQQQQ@@@@@@@@@@@@@@@@@@@@@@@@@@",
-      "ZSamSkkUUU666qKqKqKbdDDDR%RR%%%%g%gggggWWWNNN#&amp;#BQB&amp;BQQQQQQQQBQQQQQQQQQQQQQQQQQQQQQQQBBBBB#RK6UXPhhwmwmSSSZZaSZZSSSSSmmmwwwhkX6DBQQQQQQQQQQQQQQQQ@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-      "SaSmmXkUUUUqqqKKbbdDdDDDDRR%%%%g%gWWggg8WWNNNN##&amp;B&amp;&amp;&amp;&amp;QBQQQQQQQQQQQQQQQQQQQQQQQQQQQQBBBBQBB#%qXhwmZooo5yyyyyjjjjyyyyyy555aamkUK#QQQQQQQQQQQQQQQQ@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-      "mSwSmhkkXX6qKqKKKKKdDDDDRRR%g%%gggggW88gg88NN##&amp;BBB&amp;BQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQB%6PSayjjjjjf}{{{}f}fffffff}fjyZhq8QQQQQQQQQQQQQQQQQ@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-      "mSammkUXXXU666KdKqKbdDDDRRD%%Rg%g%ggWW8NNNN#N&amp;B##BQBBBQBQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ#dm5jf}}{YYIxxYsxIYInnnnYIY}jSKQQQQQQQQQQ@QQQQQQ@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-      "SmmPwPXXU6UUqKqqqbbddbDDRRR%g%%gggggWW8W8WNNN###BBB&amp;BBQBBBQQBQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQNqZj}YxxtxttsIxJJJJttxxxny6BQ@QQ@Q@@@@@@QQQQQQQQQQQQQQQQQ@@@@@@@@@@@@@@@@@@@",
-      "ZZSSwkkkkU66UKqKKqKddDDDRRDRR%%ggggg%%gWWWgW8NNNNNNN#N#&amp;N##&amp;&amp;B&amp;BBQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ#Dk5fYsIJob8%gWdoJtsfSbBQQ@@@@@@@@@@@@@@@@@QQQQQQQQQQQQ@@@@@@@@@@@@@@@@@@@",
-      "aSmmPXhkXUUUUqqqqKbdKdDRRRR%%%RbDDKUXkwSSZmSZaaaoyyyyyo5yyy55oaSkqDWBQQQQQQQQQQQQQ@Q@@@@@@@@QQQQQQQQQQ&amp;%KXP%Q@@@@QdUdWQQ@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
       "ZZSwEkhkh6U6qKKqKDdKdDDDRRRY*?TL=r!!;;;~;~~~~;~,,,::::::,,,,,,_~~;;^=EQQQQQQQQQQQQQQ@Q@Q@@@@@@@@@@@@@@@@@@@Q@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
       "SomSEkkhXUUUUqKKbbbbdDDdRR%UmPy5oyjnTccT7|&lt;=*??|LL|iiiiiiiiiL\\\\cv7zsjqNQQQQQQQQQQQQQQ@@@Q@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
       "ZSSmwPhXXk6qKqqKbbdddRdDRR%%ggg%%RRDDKU6qbbq6UXXUqUqqKKKKbbbbDDDDDD%g#QQQQQQQQQQQQQQQ@QQ@@@@@@@@@@@@@Q@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
